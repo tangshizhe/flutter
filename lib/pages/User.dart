@@ -1,0 +1,18 @@
+import 'package:flutter/material.dart';
+
+
+class UserPage extends StatelessWidget {
+  const UserPage({Key key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: Scaffold(
+        appBar: AppBar(
+          title: Text('用户中心'),
+        ),
+        body: Text("这是用户中心页面"),
+      ),
+    );
+  }
+}
